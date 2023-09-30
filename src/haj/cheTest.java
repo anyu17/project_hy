@@ -13,14 +13,15 @@ public class cheTest {
             double qian = sc.nextDouble();
             c.setJiage(qian);
 
-            System.out.println("Ʒ��");
+            System.out.println("品牌");
             String pinpai = sc.next();
             c.setPinpai(pinpai);
 
-            System.out.println("��ɫ");
+            System.out.println("颜色");
             String yanse = sc.next();
-            c.setYanse(yanse);//ע����������������ֵ��Ҫ��Ӧ��Ӧ���������
-            arr[i] = c;//����ǽ������������ֵ������ϵ
+            c.setYanse(yanse);//注意这个键盘输入的数值是要对应相应的输入对象
+            arr[i] = c;//这个是将键盘输入的数值建立联系
+
         }
 
         for(int i = 0; i < arr.length ; i++){
