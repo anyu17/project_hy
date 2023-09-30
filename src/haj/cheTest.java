@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class cheTest {
     public static void main(String[] args) {
-        //��������
+        //建立数组.
         che [] arr = new che[3];
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < arr.length; i++) {
