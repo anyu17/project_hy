@@ -8,8 +8,8 @@ public class cheTest {
         che [] arr = new che[3];
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < arr.length; i++) {
-            che c = new che();//注意这里是
-            System.out.println("������۸�");
+            che c = new che();//注意点这个构建对象一定要放在For循环里,否则运行不正确
+            System.out.println("请输入价格");
             double qian = sc.nextDouble();
             c.setJiage(qian);
 
