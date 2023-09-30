@@ -8,7 +8,7 @@ public class cheTest {
         che [] arr = new che[3];
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < arr.length; i++) {
-            che c = new che();//ע��������������һ��Ҫ����Forѭ����,�������в���ȷ
+            che c = new che();//注意这里是
             System.out.println("������۸�");
             double qian = sc.nextDouble();
             c.setJiage(qian);
