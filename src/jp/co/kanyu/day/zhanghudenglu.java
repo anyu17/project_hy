@@ -14,7 +14,7 @@ public class zhanghudenglu {
             String torokuid = sr.next();
             String torokupassword = sr.next();
            if(torokuid .equals(rightuserID) && torokupassword .equals(userpassword)){
-            System.out.println("登录成功");
+             System.out.println("恭喜登录成功");
             break;
         }else{
             if (i == 2 ) {
