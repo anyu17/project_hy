@@ -8,7 +8,7 @@ public class zhanghudenglu {
         String userpassword = "123456";
 
         Scanner sr = new Scanner(System.in);
-        System.out.println(请输入账号和密码");
+        System.out.println("请输入账号和密码");
         for(int i = 0; i < 3; i++){
 
             String torokuid = sr.next();
