@@ -8,7 +8,7 @@ public class che {
 	public che() {
 
 	}
-
+			//演示
 	public che(int jiage, String pinpai, String yanse) {
 		this.jiage = jiage;
 		this.pinpai = pinpai;
