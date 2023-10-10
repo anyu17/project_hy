@@ -22,7 +22,7 @@ public class shuru {
 
     }
     public static int getsum(int [] arr){
-        int sum=0;
+        int sum=0;//2
         for (int i = 0; i < arr.length; i++) {
             sum = sum + arr[i];
         }
