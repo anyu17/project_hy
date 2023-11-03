@@ -27,7 +27,7 @@ public class shuru {
             sum = sum + arr[i];
         }
         return sum;
-        //   增加注释
+        //   增加注释再一次
         
     }
 }
