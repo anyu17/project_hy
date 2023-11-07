@@ -21,6 +21,7 @@ public class zhanghudenglu {
                 System.out.println("您的账户被锁定");
                 }else{
                 System.out.println("登录失败,请重新输入" + "还剩" + (2 - i) + "次机会");
+                //もう一度
              }
             }
         }
