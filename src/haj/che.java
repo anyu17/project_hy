@@ -30,7 +30,7 @@ public class che {
 	public void setPinpai(String pinpai) {
 		this.pinpai = pinpai;
 	}
-
+		// 更改
 	public String getYanse() {
 		return yanse;
 	}
