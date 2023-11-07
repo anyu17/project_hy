@@ -37,5 +37,6 @@ public class che {
 
 	public void setYanse(String yanse) {
 		this.yanse = yanse;
+		//chu
 	}
 }
